@@ -10,7 +10,7 @@
       true,
       "check-space"
     ],
-    "curly": true,
+    "curly": false,
     "deprecation": {
       "severity": "warn"
     },
@@ -83,7 +83,7 @@
       "check-else",
       "check-whitespace"
     ],
-    "prefer-const": true,
+    "prefer-const": false,
     "quotemark": [
       true,
       "single"
@@ -127,7 +127,7 @@
     "component-selector": [
       true,
       "element",
-      "app",
+      //"app",
       "kebab-case"
     ],
     "no-output-on-prefix": true,
